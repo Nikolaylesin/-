@@ -32,12 +32,13 @@
                 }
             }
             &-title{
-                display: inline-block;
                 margin-top: 10px;
                 margin-left: 10px;
-                background-color: #ffffff;
-                padding: 4px;
-                font-size: 20px;
+                span {
+                    background-color: #ffffff;
+                    padding: 4px;
+                    font-size: 20px;
+                }
             }
             &:hover{
                 transform: scale(1.05);
