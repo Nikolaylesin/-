@@ -12,11 +12,9 @@ a{
     text-decoration: none;
 }
 
-.flex-container{
-    display: flex;
-}
-
 .main-nav{
+    position: fixed;
+    height: 100%;
     width: 175px;
     text-align: center;
     background-color: #2f3032;
@@ -43,8 +41,8 @@ a{
     }
 }
 
-.left__block{
-    width: 100%;
+.right__block{
+    margin-left: 175px;
 }
 
 @import "sections/main.scss";
