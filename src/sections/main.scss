@@ -2,12 +2,20 @@ main{
     display: flex;
     flex-flow: column nowrap;
 
+    h1{
+        text-align: center;
+        margin-top: 20px;
+        text-transform: uppercase;
+        color: #5b5b5b;
+    }
+
     .main__top{
         padding: 20px;
 
         .search-bar{
             display: flex;
             align-items: center;
+
             & > *{
                 margin-right: 30px;
             }
@@ -21,4 +29,5 @@ main{
             }
         }
     }
+    @import "find-recipe.scss";
 }

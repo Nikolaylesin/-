@@ -1,0 +1,65 @@
+.find-recipe{
+    .recipes{
+        width: 1096px;
+        height: 964px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-areas:
+            "r1 r1 r2 r2"
+            "r3 r3 r4 r5"
+            "r6 r7 r8 r8";
+
+        .recipe{
+
+        }
+
+        #r1{
+            background: url("/img/r1.png");
+            width: 543px;
+            height: 409px;
+            grid-area: r1;
+        }
+        #r2{
+            background: url("/img/r2.png");
+            width: 543px;
+            height: 409px;
+            grid-area: r2;
+        }
+        #r3{
+            background: url("/img/r3.png");
+            width: 543px;
+            height: 267px;
+            grid-area: r3;
+        }
+        #r4{
+            background: url("/img/r4.png");
+            width: 267px;
+            height: 267px;
+            grid-area: r4;
+        }
+        #r5{
+            background: url("/img/r5.png");
+            width: 267px;
+            height: 267px;
+            grid-area: r5;
+        }
+        #r6{
+            background: url("/img/r6.png");
+            width: 267px;
+            height: 267px;
+            grid-area: r6;
+        }
+        #r7{
+            background: url("/img/r7.png");
+            width: 267px;
+            height: 267px;
+            grid-area: r7;
+        }
+        #r8{
+            background: url("/img/r8.png");
+            width: 543px;
+            height: 267px;
+            grid-area: r8;
+        }
+    }
+}
