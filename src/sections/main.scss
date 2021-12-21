@@ -7,7 +7,7 @@ main{
 
         .search-bar{
             display: flex;
-            align-content: center;
+            align-items: center;
             & > *{
                 margin-right: 30px;
             }
