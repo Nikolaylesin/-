@@ -18,6 +18,7 @@ a{
     width: 175px;
     text-align: center;
     background-color: #2f3032;
+    z-index: 999;
 
     .logo{
         padding: 35px 57px;
@@ -41,9 +42,10 @@ a{
     }
 }
 
-.right__block{
+.main-right__block{
     margin-left: 175px;
 }
 
-@import "sections/main.scss";
 @import "sections/delimiter.scss";
+@import "sections/main.scss";
+@import "sections/footer.scss";
