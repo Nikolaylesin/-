@@ -1,0 +1,35 @@
+.recipes{
+    nav ul{
+        margin-top: 20px;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+
+        li{
+            background-color: #f1f1f1;
+            padding: 8px 23px;
+
+            &:first-child{
+                border-top-left-radius: 18px;
+                border-bottom-left-radius: 18px;
+            }
+            &:last-child{
+                border-top-right-radius: 18px;
+                border-bottom-right-radius: 18px;
+            }
+            button{
+                border: 0px;
+                height: 100%;
+                width: 100%;
+                color: inherit;
+                background-color: inherit;
+                font-size: 16px;
+            }
+        }
+        .current{
+            background-color: #2f3032;
+            color: #f1f1f1;
+            border-radius: 18px;
+        }
+    }
+}
