@@ -3,19 +3,19 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 body, html{
-    height: 100%;
-    width: 100%;
+    font-family: "PFDinTextCompPro";
 }
 a{
     text-decoration: none;
 }
 
 .main-nav{
-    width: 175px;
+    position: fixed;
     height: 100%;
+    width: 175px;
     text-align: center;
     background-color: #2f3032;
 
@@ -31,7 +31,6 @@ a{
 
             a{
                 font-size: 14px;
-                font-family: "PFDinTextCompPro";
                 color: rgb(239, 239, 239);
             }
         }
@@ -41,3 +40,10 @@ a{
         }
     }
 }
+
+.right__block{
+    margin-left: 175px;
+}
+
+@import "sections/main.scss";
+@import "sections/delimiter.scss";

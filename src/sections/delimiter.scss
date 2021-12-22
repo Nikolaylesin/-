@@ -1,0 +1,14 @@
+.delimiter{
+    display: flex;
+    align-items: center;
+
+    .line{
+        height: 2px;
+        background-color: #dadada;
+        flex-grow: 1;
+    }
+    img{
+        padding: 0 10px;
+        flex-grow: 0;
+    }
+}

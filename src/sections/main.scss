@@ -1,0 +1,33 @@
+main{
+    display: flex;
+    flex-flow: column nowrap;
+
+    h1{
+        text-align: center;
+        margin-top: 20px;
+        text-transform: uppercase;
+        color: #5b5b5b;
+    }
+
+    .main__top{
+        padding: 20px;
+
+        .search-bar{
+            display: flex;
+            align-items: center;
+
+            & > *{
+                margin-right: 30px;
+            }
+            input{
+                border: none;
+                outline: none;
+                flex-grow: 1;
+            }
+            img{
+                flex-grow: 0;
+            }
+        }
+    }
+    @import "find-recipe.scss";
+}
