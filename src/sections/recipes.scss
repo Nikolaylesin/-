@@ -7,29 +7,36 @@
 
         li{
             background-color: #f1f1f1;
-            padding: 8px 23px;
 
-            &:first-child{
+            &:first-child, &:first-child button{
                 border-top-left-radius: 18px;
                 border-bottom-left-radius: 18px;
             }
-            &:last-child{
+            &:last-child, &:last-child button{
                 border-top-right-radius: 18px;
                 border-bottom-right-radius: 18px;
             }
             button{
                 border: 0px;
-                height: 100%;
-                width: 100%;
+                padding: 8px 23px;
                 color: inherit;
                 background-color: inherit;
                 font-size: 16px;
+
+                &:hover{
+                    background-color: #d1d1d1;
+                    border-radius: 18px;
+                }
             }
         }
-        .current{
+        .current button{
             background-color: #2f3032;
             color: #f1f1f1;
             border-radius: 18px;
+
+            &:hover{
+                background-color: #5f6062;
+            }
         }
     }
 }
