@@ -52,9 +52,26 @@
             display: flex;
 
             .left__block {
-                img {
+                position: relative;
+
+                .recipe-img {
                     height: 100%;
                     width: 267px;
+                }
+                .author{
+                    position: absolute;
+                    left: 13px;
+                    bottom: 13px;
+
+                    img{
+                        vertical-align: middle;
+                        margin-right: 10px;
+                    }
+                    span{
+                        font-size: 16px;
+                        color: rgb(188, 188, 188);
+                        font-weight: bold;
+                    }
                 }
             }
             .right__block{
